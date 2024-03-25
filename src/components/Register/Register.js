@@ -7,6 +7,7 @@ import { Link, useHistory } from 'react-router-dom';
 
 const RegisterForm = () => {
     const history = useHistory();
+    console.log('xoaghichucommit');
     const LoginUser = () =>{
         history.push('/login');
     }
